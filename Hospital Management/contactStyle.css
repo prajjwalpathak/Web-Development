@@ -1,0 +1,117 @@
+body {
+    background-color: #dce7f8;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    color: #252379;
+}
+
+.top {
+    display: inline-block;
+}
+
+.top img{
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav {
+
+    font-size: 20px;
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    background-color: #dce7f8;
+    padding: 1rem;
+    border-width: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+
+.nav li{
+    
+    display: inline-block;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 1rem 3rem;
+    font-weight: bold ;
+    color: #252379;
+    font-family: sans-serif;
+}
+.nav a:hover {
+    background-color: #a2c7ff;
+}
+
+.contactHead {
+    font-size: 40px;
+    margin: 5rem 5rem 5rem 40rem;
+}
+
+.mid img {
+    display: inline-block;
+    position: absolute;
+    height: 35rem;
+    width: 35rem;
+    margin: 3.3rem 61rem 0 0;
+}
+
+.mid .phoneIcon {
+    display: inline-block;
+    position: absolute;
+    height: 3.3rem;
+    width: 5.3rem;
+    margin: 10.7rem 10rem 10rem 75rem;
+}
+
+.mid .mailIcon {
+    display: inline-block;
+    position: absolute;
+    height: 3rem;
+    width: 5rem;
+    margin: 11rem 5rem 10rem 55rem;
+}
+
+.mid .phonePara {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin: 15rem 10rem 10rem 73.7rem;
+}
+
+.mid .mailPara {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin: 15rem 5rem 10rem 50rem;
+}
+.mid .follow {
+    display: inline-block;
+    position: absolute;
+    color: #252379;
+    font-size: 40px;
+    margin: 22rem 5rem 5rem 40rem;
+}
+
+.mid .socialIcon {
+    display: inline-block;
+    position: absolute;
+    height: 5rem;
+    width: 27.4rem;
+    margin: 27rem 5rem 5rem 53.5rem;
+}
+
+

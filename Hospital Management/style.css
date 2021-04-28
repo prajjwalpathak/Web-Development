@@ -1,0 +1,124 @@
+body {
+    background-color: #dce7f8;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    color: #252379;
+}
+
+.top {
+    display: inline-block;
+}
+
+.top img{
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav {
+
+    font-size: 20px;
+    position: absolute;
+    list-style-type: none;
+    display: inline-block;
+    background-color: #dce7f8;
+    padding: 1rem;
+    border-width: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+
+.nav li{
+    
+    display: inline-block;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 1rem 3rem;
+    font-weight: bold ;
+    color: #252379;
+    font-family: sans-serif;
+}
+.nav a:hover {
+    background-color: #a2c7ff;
+}
+
+.reg {
+    position: absolute;
+    margin-left: 63rem;
+    margin-top: 2.2rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #252379;
+    color: white;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.log {
+    position: absolute;
+    margin-left: 74rem;
+    margin-top: 2.2rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #252379;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.mid img {
+    position: absolute;
+    width: 58.1rem;
+    height: 37rem;
+    margin-top: 1.3rem;
+}
+
+.mid h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 10rem;
+    color: #252379;
+    font-size: 40px;
+}
+
+.learn {
+    position: absolute;
+    margin-left: 72rem;
+    margin-top: 17rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #252379;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
