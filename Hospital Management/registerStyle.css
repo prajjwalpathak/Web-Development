@@ -18,7 +18,7 @@ h1 {
     display: inline-block;
 }
 
-.top img{
+.top .main {
     display: inline-block;
     position: relative;
     margin: 1rem;
@@ -100,6 +100,7 @@ h1 {
     border-right: 0;
     padding: 1rem;
     font-size: 20px;
+    border-color: #252379;
 }
 
 .mid .emailLabel{
@@ -121,6 +122,7 @@ h1 {
     border-right: 0;
     padding: 1rem;
     font-size: 20px;
+    border-color: #252379;
 }
 
 .mid .passwordLabel{
@@ -142,6 +144,7 @@ h1 {
     border-right: 0;
     padding: 1rem;
     font-size: 20px;
+    border-color: #252379;
 }
 
 .mid .submitInput{
@@ -162,9 +165,9 @@ h1 {
     box-shadow: 1px 1px 5px grey;
 }
 
-.mid img {
+.top .registerImage {
     position: absolute;
-    height: 35rem;
-    width: 35rem;
-    margin: 3.3rem 0 0 59.9rem;
+    height: 45.5rem;
+    width: 45rem;
+    margin: 0 0 0 51rem;
 }

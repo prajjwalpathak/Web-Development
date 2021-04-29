@@ -18,7 +18,7 @@ h1 {
     display: inline-block;
 }
 
-.top img{
+.top .main{
     display: inline-block;
     position: relative;
     margin: 1rem;
@@ -56,6 +56,40 @@ h1 {
     background-color: #a2c7ff;
 }
 
+.reg {
+    position: absolute;
+    margin-left: 63rem;
+    margin-top: 2.2rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #252379;
+    color: white;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.log {
+    position: absolute;
+    margin-left: 74rem;
+    margin-top: 2.15rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #252379;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
+
 .aboutHead {
     font-size: 40px;
     margin: 5rem 5rem;
@@ -69,10 +103,10 @@ h1 {
 
 }
 
-.mid img {
+.top .aboutImage {
     position: absolute;
-    height: 35rem;
-    width: 35rem;
-    margin: 1rem 0 0 61rem;
+    height: 45.5rem;
+    width: 45rem;
+    margin: 0 0 0 51rem;
 }
 

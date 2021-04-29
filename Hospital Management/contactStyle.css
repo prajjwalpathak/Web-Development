@@ -18,7 +18,7 @@ h1 {
     display: inline-block;
 }
 
-.top img{
+.top .main{
     display: inline-block;
     position: relative;
     margin: 1rem;
@@ -56,18 +56,54 @@ h1 {
     background-color: #a2c7ff;
 }
 
-.contactHead {
-    font-size: 40px;
-    margin: 5rem 5rem 5rem 40rem;
+.reg {
+    position: absolute;
+    margin-left: 63rem;
+    margin-top: 2.2rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #252379;
+    color: white;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
 }
 
-.mid img {
+.log {
+    position: absolute;
+    margin-left: 74rem;
+    margin-top: 2.15rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #252379;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.contactHead {
+    font-size: 40px;
+    margin: 5rem 5rem 5rem 42rem;
+}
+
+.top .contactImage {
     display: inline-block;
     position: absolute;
-    height: 35rem;
-    width: 35rem;
-    margin: 3.3rem 61rem 0 0;
+    height: 45.5rem;
+    width: 45rem;
+    margin: 0 51rem 0 0;
 }
+
+
 
 .mid .phoneIcon {
     display: inline-block;
@@ -103,7 +139,7 @@ h1 {
     position: absolute;
     color: #252379;
     font-size: 40px;
-    margin: 22rem 5rem 5rem 40rem;
+    margin: 22rem 5rem 5rem 42rem;
 }
 
 .mid .socialIcon {
