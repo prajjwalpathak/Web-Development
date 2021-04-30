@@ -21,12 +21,12 @@ h1 {
     width: 5rem;
 }
 
-.aboutDatabase {
+.mainDoctor {
     display:block;
     position: absolute;
     width: 58.1rem;
     height: 37rem;
-    margin: 0 0 0 65rem;
+    margin: 8.5rem 0 0 0;
 }
 
 .home {
@@ -98,13 +98,34 @@ h1 {
     background-color: #7094ca;
 }
 
-.log {
+.reg {
     display: inline-block;
     position: absolute;
     font-size: 20px;
     height: 3rem;
     width: 9rem;
     margin: 2rem 0 0 75rem;;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #252379;
+    color: white;
+    font-weight: bold ;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.reg:hover {
+    background-color: #312faa;
+}
+
+.log {
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    height: 3rem;
+    width: 9rem;
+    margin: 2rem 0 0 85rem;;
     border: none;
     border-radius: 5%;
     font-size: 20px;
@@ -119,102 +140,31 @@ h1 {
     background-color: #dfdfdf;
 }
 
-.register {
-    position: absolute;
+h2 {
     display: block;
-    height: 45.5rem;
-    width: 45rem;
-    margin: 0 0 0 51rem;
-}
-
-.regHead {
-    display: inline-block;
     position: absolute;
-    margin: 9rem 10rem 10rem 5rem;
+    margin: 15rem 5rem 0 65rem;
     color: #252379;
     font-size: 40px;
 }
 
-.nameLabel{
+.learn {
     display: inline-block;
     position: absolute;
-    margin: 15rem 10rem 10rem 5rem;
-    color: #252379;
     font-size: 20px;
-}
-
-.nameInput{
-    display: inline-block;
-    position: absolute;
-    margin: 16rem 10rem 10rem 5rem;
-    background-color: #dce7f8;
-    width: 25rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 1rem;
-    font-size: 20px;
-    border-color: #252379;
-}
-
-.emailLabel{
-    display: inline-block;
-    position: absolute;
-    margin: 20rem 10rem 10rem 5rem;
-    color: #252379;
-    font-size: 20px;
-}
-
-.emailInput{
-    display: inline-block;
-    position: absolute;
-    margin: 21rem 10rem 10rem 5rem;
-    background-color: #dce7f8;
-    width: 25rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 1rem;
-    font-size: 20px;
-    border-color: #252379;
-}
-
-.passwordLabel{
-    display: inline-block;
-    position: absolute;
-    margin: 25rem 10rem 10rem 5rem;
-    color: #252379;
-    font-size: 20px;
-}
-
-.passwordInput{
-    display: inline-block;
-    position: absolute;
-    margin: 26rem 10rem 10rem 5rem;
-    background-color: #dce7f8;
-    width: 25rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 1rem;
-    font-size: 20px;
-    border-color: #252379;
-}
-
-.submitInput{
-    display: inline-block;
-    position: absolute;
-    margin: 31rem 10rem 10rem 14rem;
-    position: absolute;
-    width: 8rem;
     height: 3rem;
+    width: 9rem;
+    margin: 25rem 10rem 0 70rem;
     border: none;
     border-radius: 5%;
     font-size: 20px;
-    background-color: #252379;
-    color: white;
+    background-color: #ffffff;
+    color: #252379;
     font-weight: bold ;
     cursor: pointer;
-    font-family: sans-serif;
     box-shadow: 1px 1px 5px grey;
+}
+
+.learn:hover {
+    background-color: #dfdfdf;
 }

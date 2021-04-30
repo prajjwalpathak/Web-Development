@@ -3,65 +3,108 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    color: #252379;
 }
 
 h1 {
     display: inline-block;
-    font-size: 20px;
     position: absolute;
-    margin-top: 3rem;
-    font-family: sans-serif;
-    color: #252379;
+    font-size: 25px;
+    margin: 2.6rem 0 0 7rem;
 }
 
-.top {
-    display: inline-block;
-}
-
-.top .main{
-    display: inline-block;
-    position: relative;
+.main{
+    display:block;
+    position: absolute;
     margin: 1rem;
     height: 5rem;
     width: 5rem;
 }
 
-.nav {
-
-    font-size: 20px;
+.aboutDatabase {
+    display:block;
     position: absolute;
-    list-style-type: none;
+    width: 58.1rem;
+    height: 37rem;
+    margin: 0 0 0 65rem;
+}
+
+.home {
     display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    height: 3rem;
+    width: 9rem;
     background-color: #dce7f8;
-    padding: 1rem;
-    border-width: 0.5rem;
-    margin-top: 2rem;
-    margin-left: 30rem;
-}
-
-.nav li{
-    
-    display: inline-block;
-    text-align: center;
-}
-
-.nav a {
-    text-decoration: none;
-    padding: 1rem 3rem;
-    font-weight: bold ;
+    border: none;
+    border-radius: 5%;
+    font-weight: bold;
     color: #252379;
-    font-family: sans-serif;
+    margin: 2rem 0 0 45rem;
+    cursor: pointer;
 }
-.nav a:hover {
+
+.about {
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    height: 3rem;
+    width: 9rem;
+    background-color: #dce7f8;
+    border: none;
+    border-radius: 5%;
+    font-weight: bold;
+    color: #252379;
+    margin: 2rem 0 0 55rem;
+    cursor: pointer;
+}
+
+.contact {
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    height: 3rem;
+    width: 9rem;
+    background-color: #dce7f8;
+    border: none;
+    border-radius: 5%;
+    font-weight: bold;
+    color: #252379;
+    margin: 2rem 0 0 65rem;
+    cursor: pointer;
+}
+
+.home:hover {
     background-color: #a2c7ff;
 }
 
+.about:hover {
+    background-color: #a2c7ff;
+}
+
+.contact:hover {
+    background-color: #a2c7ff;
+}
+
+.home:active {
+    background-color: #7094ca;
+}
+
+.about:active {
+    background-color: #7094ca;
+}
+
+.contact:active {
+    background-color: #7094ca;
+}
+
 .reg {
+    display: inline-block;
     position: absolute;
-    margin-left: 63rem;
-    margin-top: 2.2rem;
-    width: 8rem;
+    font-size: 20px;
     height: 3rem;
+    width: 9rem;
+    margin: 2rem 0 0 75rem;;
     border: none;
     border-radius: 5%;
     font-size: 20px;
@@ -69,84 +112,88 @@ h1 {
     color: white;
     font-weight: bold ;
     cursor: pointer;
-    font-family: sans-serif;
     box-shadow: 1px 1px 5px grey;
 }
 
-.mid .logHead {
-    display: inline-block;
-    position: absolute;
-    margin: 2rem 10rem 10rem 50rem;
-    color: #252379;
-    font-size: 40px;
+.reg:hover {
+    background-color: #312faa;
 }
 
-.mid .emailLabel{
-    display: inline-block;
-    position: absolute;
-    margin: 8rem 10rem 10rem 50rem;
-    color: #252379;
-    font-size: 20px;
-}
-
-.mid .emailInput{
-    display: inline-block;
-    position: absolute;
-    margin: 9rem 10rem 10rem 50rem;
-    background-color: #dce7f8;
-    width: 25rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 1rem;
-    font-size: 20px;
-    border-color: #252379;
-}
-
-.mid .passwordLabel{
-    display: inline-block;
-    position: absolute;
-    margin: 13rem 10rem 10rem 50rem;
-    color: #252379;
-    font-size: 20px;
-}
-
-.mid .passwordInput{
-    display: inline-block;
-    position: absolute;
-    margin: 14rem 10rem 10rem 50rem;
-    background-color: #dce7f8;
-    width: 25rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    padding: 1rem;
-    font-size: 20px;
-    border-color: #252379;
-}
-
-.mid .submitInput{
-    display: inline-block;
-    position: absolute;
-    margin: 19rem 10rem 10rem 60rem;
-    position: absolute;
-    width: 8rem;
-    height: 3rem;
-    border: none;
-    border-radius: 5%;
-    font-size: 20px;
-    background-color: #252379;
-    color: white;
-    font-weight: bold ;
-    cursor: pointer;
-    font-family: sans-serif;
-    box-shadow: 1px 1px 5px grey;
-}
-
-.top .loginImage {
-    display: inline-block;
+.login {
+    display: block;
     position: absolute;
     height: 45.5rem;
     width: 45rem;
     margin: 0 51rem 0 0;
 }
+
+.logHead {
+    display: inline-block;
+    position: absolute;
+    margin: 9rem 10rem 10rem 50rem;
+    color: #252379;
+    font-size: 40px;
+}
+
+.emailLabel{
+    display: inline-block;
+    position: absolute;
+    margin: 15rem 10rem 10rem 50rem;
+    color: #252379;
+    font-size: 20px;
+}
+
+.emailInput{
+    display: inline-block;
+    position: absolute;
+    margin: 16rem 10rem 10rem 50rem;
+    background-color: #dce7f8;
+    width: 25rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 1rem;
+    font-size: 20px;
+    border-color: #252379;
+}
+
+.passwordLabel{
+    display: inline-block;
+    position: absolute;
+    margin: 20rem 10rem 10rem 50rem;
+    color: #252379;
+    font-size: 20px;
+}
+
+.passwordInput{
+    display: inline-block;
+    position: absolute;
+    margin: 21rem 10rem 10rem 50rem;
+    background-color: #dce7f8;
+    width: 25rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 1rem;
+    font-size: 20px;
+    border-color: #252379;
+}
+
+.submitInput{
+    display: inline-block;
+    position: absolute;
+    margin: 26rem 10rem 10rem 60rem;
+    position: absolute;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    background-color: #252379;
+    color: white;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px grey;
+}
+
