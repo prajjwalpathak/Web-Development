@@ -137,7 +137,7 @@ h1 {
 }
 
 .log:hover {
-    background-color: #dfdfdf;
+    background-color: #cccccc;
 }
 
 .contactDoctor {
@@ -174,6 +174,7 @@ h1 {
     position: absolute;
     text-align: center;
     margin: 20rem 10rem 10rem 76.7rem;
+    color: black;
 }
 
 .mailPara {
@@ -181,6 +182,7 @@ h1 {
     position: absolute;
     text-align: center;
     margin: 20rem 5rem 10rem 53rem;
+    color: black;
 }
 
 .follow {

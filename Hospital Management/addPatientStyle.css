@@ -6,11 +6,26 @@ body {
     color: #252379;
 }
 
+.addPatientImage {
+    position: absolute;
+    display: block;
+    height: 45.5rem;
+    width: 45rem;
+    margin: 0 0 0 51rem;
+}
+
 h1 {
     display: inline-block;
     position: absolute;
     font-size: 25px;
     margin: 2.6rem 0 0 7rem;
+}
+
+h4 {
+    display: inline-block;
+    position: absolute;
+    margin: 2.4rem 3rem 0 79rem;
+    color: black;
 }
 
 .main{
@@ -19,4 +34,194 @@ h1 {
     margin: 1rem;
     height: 5rem;
     width: 5rem;
+}
+
+.userImage {
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+    position: absolute;
+    margin: 1.5rem 1.5rem 0 75rem;
+}
+
+.logout {
+    display: inline-block;
+    position: absolute;
+    font-size: 1rem;
+    height: 2rem;
+    width: 5rem;
+    margin: 2rem 4rem 0 88.7rem;;
+    border: none;
+    border-radius: 5%;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.logout:hover {
+    background: #cecece;
+}
+
+.idLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 10.6rem 50rem 0 4rem; 
+}
+
+.idInput {
+    display: inline-block;
+    position: absolute;
+    margin: 10.4rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.nameLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 12.6rem 50rem 0 4rem; 
+}
+
+.nameInput {
+    display: inline-block;
+    position: absolute;
+    margin: 12.4rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.genderLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 15rem 50rem 0 4rem;
+}
+
+.genderOptionMale {
+    display: inline-block;
+    position: absolute;
+    margin: 15.2rem 50rem 0 15rem;
+}
+
+.genderInputMale {
+    display: inline-block;
+    position: absolute;
+    margin: 15.4rem 50rem 0 14rem;
+    border: none;
+}
+
+.genderOptionFemale {
+    display: inline-block;
+    position: absolute;
+    margin: 15.2rem 50rem 0 23rem;
+}
+
+.genderInputFemale {
+    display: inline-block;
+    position: absolute;
+    margin: 15.4rem 50rem 0 22rem;
+    border: none;
+}
+
+.genderOptionOthers {
+    display: inline-block;
+    position: absolute;
+    margin: 14rem 50rem 0 31rem;
+}
+
+.genderInputOthers {
+    display: inline-block;
+    position: absolute;
+    margin: 14.2rem 50rem 0 30rem;
+    border: none;
+}
+
+.addressLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 16.2rem 50rem 0 4rem; 
+}
+
+.addressInput {
+    display: inline-block;
+    position: absolute;
+    margin: 16rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.hospitalLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 18.2rem 50rem 0 4rem; 
+}
+
+.hospitalInput {
+    display: inline-block;
+    position: absolute;
+    margin: 18rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.doctorLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 20.2rem 50rem 0 4rem; 
+}
+
+.doctorInput {
+    display: inline-block;
+    position: absolute;
+    margin: 20rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.symptomsLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 22.2rem 50rem 0 4rem; 
+}
+
+.symptomsInput {
+    display: inline-block;
+    position: absolute;
+    margin: 22rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.diagnosisLabel {
+    display: inline-block;
+    position: absolute;
+    margin: 24.2rem 50rem 0 4rem; 
+}
+
+.diagnosisInput {
+    display: inline-block;
+    position: absolute;
+    margin: 24rem 50rem 0 14rem; 
+    width: 20rem;
+    border: none;
+}
+
+.submitInput {
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    height: 3rem;
+    width: 9rem;
+    margin: 26.2rem 50rem 0 15rem;;
+    border: none;
+    border-radius: 5%;
+    background-color: #252379;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.submitInput:hover {
+    background: #3432aa;
 }

@@ -116,7 +116,7 @@ h1 {
 }
 
 .log:hover {
-    background-color: #dfdfdf;
+    background-color: #cccccc;
 }
 
 .register {
@@ -217,4 +217,8 @@ h1 {
     cursor: pointer;
     font-family: sans-serif;
     box-shadow: 1px 1px 5px grey;
+}
+
+.submitInput:hover{
+    background-color: #312faa; 
 }

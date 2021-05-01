@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Hospital Database
+        Add Patient - Hospital Database
     </title>
     <meta charset="utf-8">
     <link rel="icon" href="images/mainLogo.png" type="image/icon type">
@@ -10,10 +10,36 @@
 </head>
 <body>
     <div class="top">
-        <!--<img class="addPatient" src="images/.png" alt="addPatient">-->
+        <img class="addPatientImage" src="images/addPatient.png" alt="addPatient">
         <img class="main" src="images/mainLogo.png" alt="mainLogo">
         <h1>Hospital Database</h1>
-        
+        <h4>User Name</h4>
+        <img class="userImage" src="images/userImage.png" alt="userImage">
+        <a href="index.html"><button class="logout">Logout</button></a>
+    </div>
+    <div class="addForm">
+        <label class="idLabel">Patient ID</label>
+        <input type="text" class="idInput" id="id"><br>
+        <label class="nameLabel">Patient Name</label>
+        <input type="text" class="nameInput" id="name"><br>
+        <label class="genderLabel">Gender</label>
+        <label class="genderOptionMale">Male</label>
+        <input type="radio" class="genderInputMale" id="genderMale" name="gender" value="male">
+        <label class="genderOptionFemale">Female</label>
+        <input type="radio" class="genderInputFemale" id="genderFemale" name="gender" value="female"><br>
+        <label class="genderOptionOthers">Others</label>
+        <input type="radio" class="genderInputOthers" id="genderOthers" name="gender" value="others"><br>
+        <label class="addressLabel">Patient Address</label>
+        <input type="text" class="addressInput" id="address"><br>
+        <label class="hospitalLabel">Hospital</label>
+        <input type="text" class="hospitalInput" id="hospital"><br>
+        <label class="doctorLabel">Doctor</label>
+        <input type="text" class="doctorInput" id="doctor"><br>
+        <label class="symptomsLabel">Symptoms</label>
+        <input type="text" class="symptomsInput" id="symptoms"><br>
+        <label class="diagnosisLabel">Diagnosis</label>
+        <input type="text" class="diagnosisInput" id="diagnosis"><br>
+        <input type="submit" class="submitInput" value="ADD" id="submit">
     </div>
 </body>
 </html>
