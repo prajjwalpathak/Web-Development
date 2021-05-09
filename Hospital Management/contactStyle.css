@@ -158,7 +158,7 @@ h1 {
     position: absolute;
     height: 3.3rem;
     width: 5.3rem;
-    margin: 15.7rem 10rem 10rem 78rem;
+    margin: 15.7rem 10rem 10rem 70rem;
 }
 
 .mailIcon {
@@ -166,14 +166,14 @@ h1 {
     position: absolute;
     height: 3rem;
     width: 5rem;
-    margin: 16rem 5rem 10rem 58rem;
+    margin: 16rem 5rem 10rem 45rem;
 }
 
 .phonePara {
     display: inline-block;
     position: absolute;
     text-align: center;
-    margin: 20rem 10rem 10rem 76.7rem;
+    margin: 16.5rem 10rem 10rem 76.7rem;
     color: black;
 }
 
@@ -181,7 +181,7 @@ h1 {
     display: inline-block;
     position: absolute;
     text-align: center;
-    margin: 20rem 5rem 10rem 53rem;
+    margin: 16.9rem 5rem 10rem 51rem;
     color: black;
 }
 
