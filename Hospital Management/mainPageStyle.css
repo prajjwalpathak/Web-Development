@@ -20,6 +20,24 @@ h4 {
     color: black;
 }
 
+.mainPageImage1 {
+    position: absolute;
+    display: block;
+    height: 45.5rem;
+    width: 45rem;
+    margin: 0 40rem 0 0;
+    opacity: 0.2;
+}
+
+.mainPageImage2 {
+    position: absolute;
+    display: block;
+    height: 45.5rem;
+    width: 45rem;
+    margin: 0 0 0 50rem;
+    opacity: 0.2;
+}
+
 .userImage {
     height: 3rem;
     width: 3rem;
@@ -138,4 +156,36 @@ h4 {
 
 .tabs__content > :first-child {
     margin-top: 0;
+}
+
+h3 {
+    color: #000d57;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+th {
+    padding: 0.8rem;
+    text-align: left;
+    width: 15rem;
+}
+
+td {
+    padding: 0.6rem;
+    text-align: left;
+    width: 15rem;
+    font-size: 15px;
+}
+
+th {
+    background-color: #19385c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #c2d0ff;
 }
