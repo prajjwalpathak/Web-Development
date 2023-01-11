@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #252525;
+  color: #ffffff;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 0 20px;
+}
+
+#header h2 {
+  font-size: 2rem;
+}
+
+.user_input {
+  margin-top: 2px;
+  width: 350px;
+  text-align: center;
+}
+
+.user_input input {
+  width: 75%;
+  outline: none;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.user_input button {
+  cursor: pointer;
+  padding: 8px;
+  width: fit-content;
+  color: black;
+  transition: 1s;
+  outline: none;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#to_do_list {
+  width: 500px;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  padding: 1rem;
+  color: #454545;
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.checkbutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+}
+
+.delButton {
+  background-color: rgb(255, 50, 50);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-color: #ffffff;
+}
+
+input[type=checkbox]:checked + label.text-content{
+  text-decoration: line-through;
+}
